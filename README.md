@@ -34,13 +34,11 @@ This project provides a **Flask**-based web application and API for predicting h
    ```bash
    python app.py
    ```
-   Open in your browser: `http://127.0.0.1:5000`.
 
 4. **Run the API:**
    ```bash
    python api.py
    ```
-   Access it at: `http://127.0.0.1:5000`.
 
 ---
 
