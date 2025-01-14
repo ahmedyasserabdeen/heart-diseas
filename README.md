@@ -61,10 +61,3 @@ This project provides a **Flask**-based web application and API for predicting h
 
 ---
 
-## Files
-- **`app.py`**: Web app logic.
-- **`api.py`**: API for predictions.
-- **`voting.joblib`**: Trained model file.
-- **`scaler.joblib`**: Preprocessor file.
-- **`heart.csv`**: Dataset file.
-
