@@ -1,0 +1,27 @@
+{
+  "info": {
+    "_postman_id": "cdb6cbb9-2c8b-4be7-b8b4-d5f7f8c0bbf2",
+    "name": "Heart Attack Prediction API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Heart Attack Prediction",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"age\": 63, \"sex\": 1, \"cp\": 3, \"trestbps\": 145, \"chol\": 233, \"fbs\": 1, \"restecg\": 0, \"thalach\": 150, \"exang\": 0, \"oldpeak\": 2.3, \"slope\": 3, \"ca\": 0, \"thal\": 1}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/predict",
+          "host": ["127", "0", "0", "1"],
+          "port": "5000",
+          "path": ["predict"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
